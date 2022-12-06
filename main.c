@@ -236,3 +236,12 @@ int main() {
     free(I);
     return 0;
 }
+
+
+/*BLAS function
+ * void multiply(float *a, float *b, float *R) {
+    cblas_sgemm(CblasRowMajor,CblasNoTrans,CblasNoTrans,
+              M,N,K,1.0,A,K,&B[0][0],N,0.0,C,N);
+    }
+}
+*/
